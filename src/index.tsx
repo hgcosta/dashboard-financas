@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Dashboard from './pages/Dashborard';
+import App from './App';
+
 
 
 const root = ReactDOM.createRoot(
@@ -8,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Dashboard />
+    <App />
   </React.StrictMode>
 );
 
